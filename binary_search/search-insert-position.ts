@@ -1,6 +1,11 @@
-
-// number[] = sorted list of distinct numbers
-// if nums[x] = target: return x, else return index where x should be
+/**
+ * Searches for the index of a target in a sorted array or returns the position
+ * where the target should be inserted.
+ *
+ * @param nums - A sorted array of unique numbers
+ * @param target - The target number to be searched or inserted
+ * @returns The index of the target in the array or the insertion position
+ */
 function searchInsert(nums: number[], target: number): number {
  
     let indexStart = 0;
